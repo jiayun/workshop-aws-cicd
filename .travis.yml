@@ -20,7 +20,7 @@ deploy:
   bucket: workshop-level400-s3-jiayun
   key: workshop-${TRAVIS_BUILD_NUMBER}.zip
   application: workshop-aws-cicd
-  deployment_group: master
+  deployment_group: workshop-aws-cicd
   region: us-east-1
   on:
     branch: master
